@@ -53,11 +53,11 @@
   }
   
   
-  .menu nav,.menu-category nav{
+  .menu ul,.menu-category ul{
   flex-direction:column;
   
 }
-  .menu nav li,.menu-category nav li{
+  .menu ul li,.menu-category ul li{
     margin:5px;
   }
 
@@ -110,7 +110,7 @@ background-size:cover;
   justify-content:center;
  
 }
-.menu nav{
+.menu ul{
   padding:25px;
   margin:0;
   display:flex;    
@@ -119,8 +119,8 @@ max-width:600px;
    justify-content:space-around;
  
 }
-nav li{ list-style:none; }
-nav li{
+ul li{ list-style:none; }
+ul li{
  
   margin-right:25px;
   border:2px solid grey;
@@ -129,10 +129,10 @@ nav li{
   text-align:center;
   
 }
-nav li:hover{
+ul li:hover{
   background:rgba(255,255,255,.3);
 }
-nav li a{
+ul li a{
   color:white;
   text-decoration:none;
 }
@@ -201,7 +201,7 @@ nav li a{
   padding:15px 0;
   background:rgba(250,250,250,.3);
 }
-.menu-category nav{
+.menu-category ul{
   
   margin:0 auto;
   width:50%;
