@@ -55,6 +55,8 @@
   
   .menu ul,.menu-category ul{
   flex-direction:column;
+    justify-content:center;
+   
   
 }
   .menu ul li,.menu-category ul li{
